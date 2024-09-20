@@ -28,5 +28,6 @@ CREATE TABLE IF NOT EXISTS orders (
 
 CREATE TABLE IF NOT EXISTS blabla (
     order_id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT
+    user_id INT,
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
