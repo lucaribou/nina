@@ -1,5 +1,6 @@
 -- create_tables.sql
 -- This script creates three tables: `users`, `products`, and `orders`.
+-- Ajout d'un commentaire
 
 CREATE TABLE IF NOT EXISTS users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
